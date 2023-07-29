@@ -33,7 +33,7 @@ const TemperatureAndDetails = () => {
           </div>
           <div className="flex justify-center items-center font-light text-sm">
             <UilWind size={18} className="mr-1" />
-            Wind Speed:
+            Wind:
             <span className="font-medium ml-1">11 km/h</span>
           </div>
         </div>
