@@ -3,11 +3,11 @@ import Inputs from './components/Inputs';
 import TemperatureAndDetails from './components/TemperatureAndDetails';
 import TimeAndLocation from './components/TimeAndLocation';
 import TopButtons from './components/TopButtons';
-import getWeatherData from './services/weatherService';
+import getFormattedWeatherData from './services/weatherService';
 
 function App() {
   const fetchWeather = async () => {
-    const data = await getWeatherData('weather', { q: 'conakry' });
+    const data = await getFormattedWeatherData({ q: 'conakry' });
     console.log(data);
   };
 
